@@ -39,7 +39,6 @@ class UsuarioController extends Controller
     {
         return view('Usuario.Editar');
     }
-
 public function update(Request $request)
 {
     $request->validate([
@@ -49,17 +48,15 @@ public function update(Request $request)
 
     $usuario = Usuario::where('username', $request->username)->first();
 
+    // Verificar si la nueva contraseña coincide con la actual
     if (Hash::check($request->password, $usuario->password)) {
-        return back()->with('error', 'La nueva contraseña no puede ser igual a la anterior.');
+        return back()->with('error', '⚠️ La nueva contraseña no puede ser igual a la anterior.');
     }
 
-    if ($request->password !== $request->password_confirmation) {
-        return back()->with('error', 'Las contraseñas no coinciden.');
-    }
-
+    // Guardar la nueva contraseña
     $usuario->password = Hash::make($request->password);
     $usuario->save();
 
-    return redirect()->route('login')->with('success', 'Usuario actualizado correctamente.');
+    return redirect()->route('login')->with('success', '✅ Contraseña actualizada correctamente.');
 }
 }
