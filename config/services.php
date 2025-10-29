@@ -14,12 +14,24 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
 
     'resend' => [
         'key' => env('RESEND_KEY'),
+=======
+    'mailgun' => [
+        'domain' => env('MAILGUN_DOMAIN'),
+        'secret' => env('MAILGUN_SECRET'),
+        'endpoint' => env('MAILGUN_ENDPOINT', 'api.mailgun.net'),
+        'scheme' => 'https',
+    ],
+
+    'postmark' => [
+        'token' => env('POSTMARK_TOKEN'),
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
     ],
 
     'ses' => [
@@ -28,6 +40,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+<<<<<<< HEAD
     'slack' => [
         'notifications' => [
             'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
@@ -35,4 +48,6 @@ return [
         ],
     ],
 
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
 ];

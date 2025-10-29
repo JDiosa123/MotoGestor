@@ -1,4 +1,7 @@
 *
+<<<<<<< HEAD
 !private/
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
 !public/
 !.gitignore

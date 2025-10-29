@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "c514d8f7b9fc5970bdd94287905ef584",
     "packages": [
         {
@@ -27,6 +28,31 @@
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpstan/phpstan": "2.1.22",
                 "phpunit/phpunit": "^11.5"
+=======
+    "content-hash": "fe33f98a750b8c5a51b30c78bd3fab21",
+    "packages": [
+        {
+            "name": "brick/math",
+            "version": "0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/math.git",
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/math/zipball/0ad82ce168c82ba30d1c01ec86116ab52f589478",
+                "reference": "0ad82ce168c82ba30d1c01ec86116ab52f589478",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpunit/phpunit": "^9.0",
+                "vimeo/psalm": "5.0.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -46,6 +72,7 @@
                 "arithmetic",
                 "bigdecimal",
                 "bignum",
+<<<<<<< HEAD
                 "bignumber",
                 "brick",
                 "decimal",
@@ -57,6 +84,14 @@
             "support": {
                 "issues": "https://github.com/brick/math/issues",
                 "source": "https://github.com/brick/math/tree/0.14.0"
+=======
+                "brick",
+                "math"
+            ],
+            "support": {
+                "issues": "https://github.com/brick/math/issues",
+                "source": "https://github.com/brick/math/tree/0.11.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -64,6 +99,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-08-29T12:40:03+00:00"
         },
         {
@@ -88,6 +124,32 @@
             },
             "require-dev": {
                 "doctrine/dbal": "^4.0.0",
+=======
+            "time": "2023-01-15T23:15:59+00:00"
+        },
+        {
+            "name": "carbonphp/carbon-doctrine-types",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CarbonPHP/carbon-doctrine-types.git",
+                "reference": "99f76ffa36cce3b70a4a6abce41dba15ca2e84cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon-doctrine-types/zipball/99f76ffa36cce3b70a4a6abce41dba15ca2e84cb",
+                "reference": "99f76ffa36cce3b70a4a6abce41dba15ca2e84cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "conflict": {
+                "doctrine/dbal": "<3.7.0 || >=4.0.0"
+            },
+            "require-dev": {
+                "doctrine/dbal": "^3.7.0",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "nesbot/carbon": "^2.71.0 || ^3.0.0",
                 "phpunit/phpunit": "^10.3"
             },
@@ -117,7 +179,11 @@
             ],
             "support": {
                 "issues": "https://github.com/CarbonPHP/carbon-doctrine-types/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/3.2.0"
+=======
+                "source": "https://github.com/CarbonPHP/carbon-doctrine-types/tree/2.1.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -133,7 +199,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-02-09T16:56:22+00:00"
+=======
+            "time": "2023-12-11T17:09:12+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "dflydev/dot-access-data",
@@ -211,6 +281,57 @@
             "time": "2024-07-08T12:26:09+00:00"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "doctrine/deprecations",
+            "version": "1.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/deprecations.git",
+                "reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
+                "reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<=7.5 || >=13"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^9 || ^12 || ^13",
+                "phpstan/phpstan": "1.4.10 || 2.1.11",
+                "phpstan/phpstan-phpunit": "^1.0 || ^2",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.5 || ^12",
+                "psr/log": "^1 || ^2 || ^3"
+            },
+            "suggest": {
+                "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Deprecations\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.",
+            "homepage": "https://www.doctrine-project.org/",
+            "support": {
+                "issues": "https://github.com/doctrine/deprecations/issues",
+                "source": "https://github.com/doctrine/deprecations/tree/1.1.5"
+            },
+            "time": "2025-04-07T20:06:18+00:00"
+        },
+        {
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             "name": "doctrine/inflector",
             "version": "2.1.0",
             "source": {
@@ -302,6 +423,7 @@
         },
         {
             "name": "doctrine/lexer",
+<<<<<<< HEAD
             "version": "3.0.1",
             "source": {
                 "type": "git",
@@ -323,6 +445,30 @@
                 "phpunit/phpunit": "^10.5",
                 "psalm/plugin-phpunit": "^0.18.3",
                 "vimeo/psalm": "^5.21"
+=======
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6",
+                "reference": "861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/deprecations": "^1.0",
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^9 || ^12",
+                "phpstan/phpstan": "^1.3",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.6",
+                "psalm/plugin-phpunit": "^0.18.3",
+                "vimeo/psalm": "^4.11 || ^5.21"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -359,7 +505,11 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/lexer/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/doctrine/lexer/tree/3.0.1"
+=======
+                "source": "https://github.com/doctrine/lexer/tree/2.1.1"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -375,7 +525,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-02-05T11:56:58+00:00"
+=======
+            "time": "2024-02-05T11:35:39+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -444,6 +598,7 @@
         },
         {
             "name": "egulias/email-validator",
+<<<<<<< HEAD
             "version": "4.0.4",
             "source": {
                 "type": "git",
@@ -464,6 +619,28 @@
             "require-dev": {
                 "phpunit/phpunit": "^10.2",
                 "vimeo/psalm": "^5.12"
+=======
+            "version": "3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/egulias/EmailValidator.git",
+                "reference": "e5997fa97e8790cdae03a9cbd5e78e45e3c7bda7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/e5997fa97e8790cdae03a9cbd5e78e45e3c7bda7",
+                "reference": "e5997fa97e8790cdae03a9cbd5e78e45e3c7bda7",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "^1.2|^2",
+                "php": ">=7.2",
+                "symfony/polyfill-intl-idn": "^1.15"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.8|^9.3.3",
+                "vimeo/psalm": "^4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
@@ -471,7 +648,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "4.0.x-dev"
+=======
+                    "dev-master": "3.0.x-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -499,7 +680,11 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/egulias/EmailValidator/tree/4.0.4"
+=======
+                "source": "https://github.com/egulias/EmailValidator/tree/3.2.6"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -507,7 +692,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-03-06T22:45:56+00:00"
+=======
+            "time": "2023-06-01T07:04:22+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "fruitcake/php-cors",
@@ -1055,6 +1244,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v12.35.1",
             "source": {
                 "type": "git",
@@ -1072,6 +1262,24 @@
                 "composer-runtime-api": "^2.2",
                 "doctrine/inflector": "^2.0.5",
                 "dragonmantank/cron-expression": "^3.4",
+=======
+            "version": "v9.52.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "6055d9594c9da265ddbf1e27e7dd8f09624568bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6055d9594c9da265ddbf1e27e7dd8f09624568bc",
+                "reference": "6055d9594c9da265ddbf1e27e7dd8f09624568bc",
+                "shasum": ""
+            },
+            "require": {
+                "brick/math": "^0.9.3|^0.10.2|^0.11",
+                "doctrine/inflector": "^2.0.5",
+                "dragonmantank/cron-expression": "^3.3.2",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "egulias/email-validator": "^3.2.1|^4.0",
                 "ext-ctype": "*",
                 "ext-filter": "*",
@@ -1080,6 +1288,7 @@
                 "ext-openssl": "*",
                 "ext-session": "*",
                 "ext-tokenizer": "*",
+<<<<<<< HEAD
                 "fruitcake/php-cors": "^1.3",
                 "guzzlehttp/guzzle": "^7.8.2",
                 "guzzlehttp/uri-template": "^1.0",
@@ -1093,10 +1302,22 @@
                 "nesbot/carbon": "^3.8.4",
                 "nunomaduro/termwind": "^2.0",
                 "php": "^8.2",
+=======
+                "fruitcake/php-cors": "^1.2",
+                "guzzlehttp/uri-template": "^1.0",
+                "laravel/serializable-closure": "^1.2.2",
+                "league/commonmark": "^2.2.1",
+                "league/flysystem": "^3.8.0",
+                "monolog/monolog": "^2.0",
+                "nesbot/carbon": "^2.62.1",
+                "nunomaduro/termwind": "^1.13",
+                "php": "^8.0.2",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "psr/container": "^1.1.1|^2.0.1",
                 "psr/log": "^1.0|^2.0|^3.0",
                 "psr/simple-cache": "^1.0|^2.0|^3.0",
                 "ramsey/uuid": "^4.7",
+<<<<<<< HEAD
                 "symfony/console": "^7.2.0",
                 "symfony/error-handler": "^7.2.0",
                 "symfony/finder": "^7.2.0",
@@ -1114,13 +1335,32 @@
                 "tijsverkoyen/css-to-inline-styles": "^2.2.5",
                 "vlucas/phpdotenv": "^5.6.1",
                 "voku/portable-ascii": "^2.0.2"
+=======
+                "symfony/console": "^6.0.9",
+                "symfony/error-handler": "^6.0",
+                "symfony/finder": "^6.0",
+                "symfony/http-foundation": "^6.0",
+                "symfony/http-kernel": "^6.0",
+                "symfony/mailer": "^6.0",
+                "symfony/mime": "^6.0",
+                "symfony/process": "^6.0",
+                "symfony/routing": "^6.0",
+                "symfony/uid": "^6.0",
+                "symfony/var-dumper": "^6.0",
+                "tijsverkoyen/css-to-inline-styles": "^2.2.5",
+                "vlucas/phpdotenv": "^5.4.1",
+                "voku/portable-ascii": "^2.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "conflict": {
                 "tightenco/collect": "<5.5.33"
             },
             "provide": {
                 "psr/container-implementation": "1.1|2.0",
+<<<<<<< HEAD
                 "psr/log-implementation": "1.0|2.0|3.0",
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "psr/simple-cache-implementation": "1.0|2.0|3.0"
             },
             "replace": {
@@ -1129,7 +1369,10 @@
                 "illuminate/bus": "self.version",
                 "illuminate/cache": "self.version",
                 "illuminate/collections": "self.version",
+<<<<<<< HEAD
                 "illuminate/concurrency": "self.version",
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "illuminate/conditionable": "self.version",
                 "illuminate/config": "self.version",
                 "illuminate/console": "self.version",
@@ -1142,14 +1385,20 @@
                 "illuminate/filesystem": "self.version",
                 "illuminate/hashing": "self.version",
                 "illuminate/http": "self.version",
+<<<<<<< HEAD
                 "illuminate/json-schema": "self.version",
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "illuminate/log": "self.version",
                 "illuminate/macroable": "self.version",
                 "illuminate/mail": "self.version",
                 "illuminate/notifications": "self.version",
                 "illuminate/pagination": "self.version",
                 "illuminate/pipeline": "self.version",
+<<<<<<< HEAD
                 "illuminate/process": "self.version",
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "illuminate/queue": "self.version",
                 "illuminate/redis": "self.version",
                 "illuminate/routing": "self.version",
@@ -1158,6 +1407,7 @@
                 "illuminate/testing": "self.version",
                 "illuminate/translation": "self.version",
                 "illuminate/validation": "self.version",
+<<<<<<< HEAD
                 "illuminate/view": "self.version",
                 "spatie/once": "*"
             },
@@ -1192,6 +1442,37 @@
                 "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
                 "aws/aws-sdk-php": "Required to use the SQS queue driver, DynamoDb failed job storage, and SES mail driver (^3.322.9).",
                 "brianium/paratest": "Required to run tests in parallel (^7.0|^8.0).",
+=======
+                "illuminate/view": "self.version"
+            },
+            "require-dev": {
+                "ably/ably-php": "^1.0",
+                "aws/aws-sdk-php": "^3.235.5",
+                "doctrine/dbal": "^2.13.3|^3.1.4",
+                "ext-gmp": "*",
+                "fakerphp/faker": "^1.21",
+                "guzzlehttp/guzzle": "^7.5",
+                "league/flysystem-aws-s3-v3": "^3.0",
+                "league/flysystem-ftp": "^3.0",
+                "league/flysystem-path-prefixing": "^3.3",
+                "league/flysystem-read-only": "^3.3",
+                "league/flysystem-sftp-v3": "^3.0",
+                "mockery/mockery": "^1.5.1",
+                "orchestra/testbench-core": "^7.24",
+                "pda/pheanstalk": "^4.0",
+                "phpstan/phpdoc-parser": "^1.15",
+                "phpstan/phpstan": "^1.4.7",
+                "phpunit/phpunit": "^9.5.8",
+                "predis/predis": "^1.1.9|^2.0.2",
+                "symfony/cache": "^6.0",
+                "symfony/http-client": "^6.0"
+            },
+            "suggest": {
+                "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
+                "aws/aws-sdk-php": "Required to use the SQS queue driver, DynamoDb failed job storage, and SES mail driver (^3.235.5).",
+                "brianium/paratest": "Required to run tests in parallel (^6.0).",
+                "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.13.3|^3.1.4).",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "ext-apcu": "Required to use the APC cache driver.",
                 "ext-fileinfo": "Required to use the Filesystem class.",
                 "ext-ftp": "Required to use the Flysystem FTP driver.",
@@ -1200,6 +1481,7 @@
                 "ext-pcntl": "Required to use all features of the queue worker and console signal trapping.",
                 "ext-pdo": "Required to use all database features.",
                 "ext-posix": "Required to use all features of the queue worker.",
+<<<<<<< HEAD
                 "ext-redis": "Required to use the Redis cache and queue drivers (^4.0|^5.0|^6.0).",
                 "fakerphp/faker": "Required to generate fake data using the fake() helper (^1.23).",
                 "filp/whoops": "Required for friendly error pages in development (^2.14.3).",
@@ -1223,15 +1505,45 @@
                 "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^7.2).",
                 "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^7.2).",
                 "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^7.2)."
+=======
+                "ext-redis": "Required to use the Redis cache and queue drivers (^4.0|^5.0).",
+                "fakerphp/faker": "Required to use the eloquent factory builder (^1.9.1).",
+                "filp/whoops": "Required for friendly error pages in development (^2.14.3).",
+                "guzzlehttp/guzzle": "Required to use the HTTP Client and the ping methods on schedules (^7.5).",
+                "laravel/tinker": "Required to use the tinker console command (^2.0).",
+                "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (^3.0).",
+                "league/flysystem-ftp": "Required to use the Flysystem FTP driver (^3.0).",
+                "league/flysystem-path-prefixing": "Required to use the scoped driver (^3.3).",
+                "league/flysystem-read-only": "Required to use read-only disks (^3.3)",
+                "league/flysystem-sftp-v3": "Required to use the Flysystem SFTP driver (^3.0).",
+                "mockery/mockery": "Required to use mocking (^1.5.1).",
+                "nyholm/psr7": "Required to use PSR-7 bridging features (^1.2).",
+                "pda/pheanstalk": "Required to use the beanstalk queue driver (^4.0).",
+                "phpunit/phpunit": "Required to use assertions and run tests (^9.5.8).",
+                "predis/predis": "Required to use the predis connector (^1.1.9|^2.0.2).",
+                "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
+                "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^6.0|^7.0).",
+                "symfony/cache": "Required to PSR-6 cache bridge (^6.0).",
+                "symfony/filesystem": "Required to enable support for relative symbolic links (^6.0).",
+                "symfony/http-client": "Required to enable support for the Symfony API mail transports (^6.0).",
+                "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^6.0).",
+                "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^6.0).",
+                "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0)."
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "12.x-dev"
+=======
+                    "dev-master": "9.x-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
                 "files": [
+<<<<<<< HEAD
                     "src/Illuminate/Collections/functions.php",
                     "src/Illuminate/Collections/helpers.php",
                     "src/Illuminate/Events/functions.php",
@@ -1239,6 +1551,11 @@
                     "src/Illuminate/Foundation/helpers.php",
                     "src/Illuminate/Log/functions.php",
                     "src/Illuminate/Support/functions.php",
+=======
+                    "src/Illuminate/Collections/helpers.php",
+                    "src/Illuminate/Events/functions.php",
+                    "src/Illuminate/Foundation/helpers.php",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "src/Illuminate/Support/helpers.php"
                 ],
                 "psr-4": {
@@ -1270,6 +1587,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2025-10-23T15:25:03+00:00"
         },
         {
@@ -1318,12 +1636,59 @@
                 ],
                 "psr-4": {
                     "Laravel\\Prompts\\": "src/"
+=======
+            "time": "2025-09-30T14:57:50+00:00"
+        },
+        {
+            "name": "laravel/sanctum",
+            "version": "v3.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/sanctum.git",
+                "reference": "8c104366459739f3ada0e994bcd3e6fd681ce3d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/sanctum/zipball/8c104366459739f3ada0e994bcd3e6fd681ce3d5",
+                "reference": "8c104366459739f3ada0e994bcd3e6fd681ce3d5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/console": "^9.21|^10.0",
+                "illuminate/contracts": "^9.21|^10.0",
+                "illuminate/database": "^9.21|^10.0",
+                "illuminate/support": "^9.21|^10.0",
+                "php": "^8.0.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^7.28.2|^8.8.3",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.6"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Sanctum\\SanctumServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Sanctum\\": "src/"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
+<<<<<<< HEAD
             "description": "Add beautiful and user-friendly forms to your command-line applications.",
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
@@ -1354,11 +1719,58 @@
                 "pestphp/pest": "^2.36|^3.0",
                 "phpstan/phpstan": "^2.0",
                 "symfony/var-dumper": "^6.2.0|^7.0.0"
+=======
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+            "keywords": [
+                "auth",
+                "laravel",
+                "sanctum"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/sanctum/issues",
+                "source": "https://github.com/laravel/sanctum"
+            },
+            "time": "2023-12-19T18:44:48+00:00"
+        },
+        {
+            "name": "laravel/serializable-closure",
+            "version": "v1.3.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/serializable-closure.git",
+                "reference": "4f48ade902b94323ca3be7646db16209ec76be3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/4f48ade902b94323ca3be7646db16209ec76be3d",
+                "reference": "4f48ade902b94323ca3be7646db16209ec76be3d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+                "nesbot/carbon": "^2.61|^3.0",
+                "pestphp/pest": "^1.21.3",
+                "phpstan/phpstan": "^1.8.2",
+                "symfony/var-dumper": "^5.4.11|^6.2.0|^7.0.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "2.x-dev"
+=======
+                    "dev-master": "1.x-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -1390,7 +1802,11 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
+<<<<<<< HEAD
             "time": "2025-10-09T13:42:30+00:00"
+=======
+            "time": "2024-11-14T18:34:49+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "laravel/tinker",
@@ -1836,6 +2252,7 @@
             "time": "2024-09-21T08:32:55+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "league/uri",
             "version": "7.5.1",
             "source": {
@@ -2048,6 +2465,45 @@
                 "predis/predis": "^1.1 || ^2",
                 "rollbar/rollbar": "^4.0",
                 "ruflin/elastica": "^7 || ^8",
+=======
+            "name": "monolog/monolog",
+            "version": "2.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "5cf826f2991858b54d5c3809bee745560a1042a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5cf826f2991858b54d5c3809bee745560a1042a7",
+                "reference": "5cf826f2991858b54d5c3809bee745560a1042a7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2",
+                "psr/log": "^1.0.1 || ^2.0 || ^3.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0 || 2.0.0 || 3.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "elasticsearch/elasticsearch": "^7 || ^8",
+                "ext-json": "*",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
+                "guzzlehttp/guzzle": "^7.4",
+                "guzzlehttp/psr7": "^2.2",
+                "mongodb/mongodb": "^1.8",
+                "php-amqplib/php-amqplib": "~2.4 || ^3",
+                "phpspec/prophecy": "^1.15",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^8.5.38 || ^9.6.19",
+                "predis/predis": "^1.1 || ^2.0",
+                "rollbar/rollbar": "^1.3 || ^2 || ^3",
+                "ruflin/elastica": "^7",
+                "swiftmailer/swiftmailer": "^5.3|^6.0",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "symfony/mailer": "^5.4 || ^6",
                 "symfony/mime": "^5.4 || ^6"
             },
@@ -2070,7 +2526,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.x-dev"
+=======
+                    "dev-main": "2.x-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -2098,7 +2558,11 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/Seldaek/monolog/tree/3.9.0"
+=======
+                "source": "https://github.com/Seldaek/monolog/tree/2.10.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -2110,6 +2574,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-03-24T10:02:05+00:00"
         },
         {
@@ -2134,11 +2599,38 @@
                 "symfony/clock": "^6.3.12 || ^7.0",
                 "symfony/polyfill-mbstring": "^1.0",
                 "symfony/translation": "^4.4.18 || ^5.2.1 || ^6.0 || ^7.0"
+=======
+            "time": "2024-11-12T12:43:37+00:00"
+        },
+        {
+            "name": "nesbot/carbon",
+            "version": "2.73.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CarbonPHP/carbon.git",
+                "reference": "9228ce90e1035ff2f0db84b40ec2e023ed802075"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/9228ce90e1035ff2f0db84b40ec2e023ed802075",
+                "reference": "9228ce90e1035ff2f0db84b40ec2e023ed802075",
+                "shasum": ""
+            },
+            "require": {
+                "carbonphp/carbon-doctrine-types": "*",
+                "ext-json": "*",
+                "php": "^7.1.8 || ^8.0",
+                "psr/clock": "^1.0",
+                "symfony/polyfill-mbstring": "^1.0",
+                "symfony/polyfill-php80": "^1.16",
+                "symfony/translation": "^3.4 || ^4.0 || ^5.0 || ^6.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "provide": {
                 "psr/clock-implementation": "1.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "doctrine/dbal": "^3.6.3 || ^4.0",
                 "doctrine/orm": "^2.15.2 || ^3.0",
                 "friendsofphp/php-cs-fixer": "^v3.87.1",
@@ -2148,6 +2640,19 @@
                 "phpstan/phpstan": "^2.1.22",
                 "phpunit/phpunit": "^10.5.53",
                 "squizlabs/php_codesniffer": "^3.13.4"
+=======
+                "doctrine/dbal": "^2.0 || ^3.1.4 || ^4.0",
+                "doctrine/orm": "^2.7 || ^3.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "kylekatarnls/multi-tester": "^2.0",
+                "ondrejmirtes/better-reflection": "<6",
+                "phpmd/phpmd": "^2.9",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
+                "squizlabs/php_codesniffer": "^3.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "bin": [
                 "bin/carbon"
@@ -2198,8 +2703,13 @@
             ],
             "support": {
                 "docs": "https://carbon.nesbot.com/docs",
+<<<<<<< HEAD
                 "issues": "https://github.com/CarbonPHP/carbon/issues",
                 "source": "https://github.com/CarbonPHP/carbon"
+=======
+                "issues": "https://github.com/briannesbitt/Carbon/issues",
+                "source": "https://github.com/briannesbitt/Carbon"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -2215,6 +2725,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-06T13:39:36+00:00"
         },
         {
@@ -2239,11 +2750,41 @@
                 "nette/tester": "^2.5.2",
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
+=======
+            "time": "2025-01-08T20:10:23+00:00"
+        },
+        {
+            "name": "nette/schema",
+            "version": "v1.2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/schema.git",
+                "reference": "0462f0166e823aad657c9224d0f849ecac1ba10a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/schema/zipball/0462f0166e823aad657c9224d0f849ecac1ba10a",
+                "reference": "0462f0166e823aad657c9224d0f849ecac1ba10a",
+                "shasum": ""
+            },
+            "require": {
+                "nette/utils": "^2.5.7 || ^3.1.5 ||  ^4.0",
+                "php": "7.1 - 8.3"
+            },
+            "require-dev": {
+                "nette/tester": "^2.3 || ^2.4",
+                "phpstan/phpstan-nette": "^1.0",
+                "tracy/tracy": "^2.7"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "1.3-dev"
+=======
+                    "dev-master": "1.2-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -2275,9 +2816,15 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/nette/schema/tree/v1.3.2"
             },
             "time": "2024-10-06T23:10:23+00:00"
+=======
+                "source": "https://github.com/nette/schema/tree/v1.2.5"
+            },
+            "time": "2023-10-05T20:37:59+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "nette/utils",
@@ -2428,6 +2975,7 @@
         },
         {
             "name": "nunomaduro/termwind",
+<<<<<<< HEAD
             "version": "v2.3.2",
             "source": {
                 "type": "git",
@@ -2438,10 +2986,23 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/eb61920a53057a7debd718a5b89c2178032b52c0",
                 "reference": "eb61920a53057a7debd718a5b89c2178032b52c0",
+=======
+            "version": "v1.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/termwind.git",
+                "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
+                "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
+<<<<<<< HEAD
                 "php": "^8.2",
                 "symfony/console": "^7.3.4"
             },
@@ -2453,6 +3014,21 @@
                 "phpstan/phpstan": "^1.12.32",
                 "phpstan/phpstan-strict-rules": "^1.6.2",
                 "symfony/var-dumper": "^7.3.4",
+=======
+                "php": "^8.0",
+                "symfony/console": "^5.3.0|^6.0.0"
+            },
+            "require-dev": {
+                "ergebnis/phpstan-rules": "^1.0.",
+                "illuminate/console": "^8.0|^9.0",
+                "illuminate/support": "^8.0|^9.0",
+                "laravel/pint": "^1.0.0",
+                "pestphp/pest": "^1.21.0",
+                "pestphp/pest-plugin-mock": "^1.0",
+                "phpstan/phpstan": "^1.4.6",
+                "phpstan/phpstan-strict-rules": "^1.1.0",
+                "symfony/var-dumper": "^5.2.7|^6.0.0",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -2461,9 +3037,12 @@
                     "providers": [
                         "Termwind\\Laravel\\TermwindServiceProvider"
                     ]
+<<<<<<< HEAD
                 },
                 "branch-alias": {
                     "dev-2.x": "2.x-dev"
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -2495,7 +3074,11 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/nunomaduro/termwind/tree/v2.3.2"
+=======
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -2511,7 +3094,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-10-18T11:10:27+00:00"
+=======
+            "time": "2023-02-08T01:06:31+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "phpoption/phpoption",
@@ -3002,6 +3589,7 @@
         },
         {
             "name": "psy/psysh",
+<<<<<<< HEAD
             "version": "v0.12.14",
             "source": {
                 "type": "git",
@@ -3012,6 +3600,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/95c29b3756a23855a30566b745d218bee690bef2",
                 "reference": "95c29b3756a23855a30566b745d218bee690bef2",
+=======
+            "version": "v0.12.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/psysh.git",
+                "reference": "d86c2f750e72017a5cdb1b9f1cef468a5cbacd1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/d86c2f750e72017a5cdb1b9f1cef468a5cbacd1e",
+                "reference": "d86c2f750e72017a5cdb1b9f1cef468a5cbacd1e",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "shasum": ""
             },
             "require": {
@@ -3032,6 +3632,10 @@
             "suggest": {
                 "composer/class-map-generator": "Improved tab completion performance with better class discovery.",
                 "ext-pcntl": "Enabling the PCNTL extension makes PsySH a lot happier :)",
+<<<<<<< HEAD
+=======
+                "ext-pdo-sqlite": "The doc command requires SQLite to work.",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "ext-posix": "If you have PCNTL, you'll want the POSIX extension as well."
             },
             "bin": [
@@ -3075,9 +3679,15 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.14"
             },
             "time": "2025-10-27T17:15:31+00:00"
+=======
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.13"
+            },
+            "time": "2025-10-20T22:48:29+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "ralouphie/getallheaders",
@@ -3125,6 +3735,7 @@
         },
         {
             "name": "ramsey/collection",
+<<<<<<< HEAD
             "version": "2.1.1",
             "source": {
                 "type": "git",
@@ -3158,6 +3769,45 @@
                 "ramsey/coding-standard": "^2.3",
                 "ramsey/conventional-commits": "^1.6",
                 "roave/security-advisories": "dev-latest"
+=======
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/collection.git",
+                "reference": "ad7475d1c9e70b190ecffc58f2d989416af339b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/ad7475d1c9e70b190ecffc58f2d989416af339b4",
+                "reference": "ad7475d1c9e70b190ecffc58f2d989416af339b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "symfony/polyfill-php81": "^1.23"
+            },
+            "require-dev": {
+                "captainhook/plugin-composer": "^5.3",
+                "ergebnis/composer-normalize": "^2.28.3",
+                "fakerphp/faker": "^1.21",
+                "hamcrest/hamcrest-php": "^2.0",
+                "jangregor/phpstan-prophecy": "^1.0",
+                "mockery/mockery": "^1.5",
+                "php-parallel-lint/php-console-highlighter": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "phpcsstandards/phpcsutils": "^1.0.0-rc1",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.9",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-mockery": "^1.1",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "ramsey/coding-standard": "^2.0.3",
+                "ramsey/conventional-commits": "^1.3",
+                "vimeo/psalm": "^5.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
@@ -3195,9 +3845,25 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/collection/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/ramsey/collection/tree/2.1.1"
             },
             "time": "2025-03-22T05:38:12+00:00"
+=======
+                "source": "https://github.com/ramsey/collection/tree/1.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ramsey",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ramsey/collection",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-12-27T19:12:24+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "ramsey/uuid",
@@ -3278,6 +3944,7 @@
             "time": "2025-09-04T20:59:21+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/clock",
             "version": "v7.3.0",
             "source": {
@@ -3378,12 +4045,40 @@
                 "symfony/event-dispatcher": "<6.4",
                 "symfony/lock": "<6.4",
                 "symfony/process": "<6.4"
+=======
+            "name": "symfony/console",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "c3ebc83d031b71c39da318ca8b7a07ecc67507ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/c3ebc83d031b71c39da318ca8b7a07ecc67507ed",
+                "reference": "c3ebc83d031b71c39da318ca8b7a07ecc67507ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/service-contracts": "^1.1|^2|^3",
+                "symfony/string": "^5.4|^6.0"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<5.4",
+                "symfony/dotenv": "<5.4",
+                "symfony/event-dispatcher": "<5.4",
+                "symfony/lock": "<5.4",
+                "symfony/process": "<5.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
+<<<<<<< HEAD
                 "symfony/config": "^6.4|^7.0",
                 "symfony/dependency-injection": "^6.4|^7.0",
                 "symfony/event-dispatcher": "^6.4|^7.0",
@@ -3394,6 +4089,20 @@
                 "symfony/process": "^6.4|^7.0",
                 "symfony/stopwatch": "^6.4|^7.0",
                 "symfony/var-dumper": "^6.4|^7.0"
+=======
+                "symfony/config": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/event-dispatcher": "^5.4|^6.0",
+                "symfony/lock": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0",
+                "symfony/var-dumper": "^5.4|^6.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/lock": "",
+                "symfony/process": ""
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -3422,12 +4131,20 @@
             "homepage": "https://symfony.com",
             "keywords": [
                 "cli",
+<<<<<<< HEAD
                 "command-line",
+=======
+                "command line",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "console",
                 "terminal"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/console/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3439,14 +4156,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-22T15:31:00+00:00"
         },
         {
@@ -3465,6 +4186,26 @@
             },
             "require": {
                 "php": ">=8.2"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "f1d00bddb83a4cb2138564b2150001cb6ce272b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f1d00bddb83a4cb2138564b2150001cb6ce272b1",
+                "reference": "f1d00bddb83a4cb2138564b2150001cb6ce272b1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -3496,7 +4237,11 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/css-selector/tree/v7.3.0"
+=======
+                "source": "https://github.com/symfony/css-selector/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3512,6 +4257,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-09-25T14:21:43+00:00"
         },
         {
@@ -3530,6 +4276,26 @@
             },
             "require": {
                 "php": ">=8.1"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
+                "reference": "26954b3d62a6c5fd0ea8a2a00c0353a14978d05c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
@@ -3538,7 +4304,11 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.6-dev"
+=======
+                    "dev-main": "3.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -3563,7 +4333,11 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
+=======
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3579,6 +4353,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-09-25T14:21:43+00:00"
         },
         {
@@ -3610,6 +4385,33 @@
                 "symfony/http-kernel": "^6.4|^7.0",
                 "symfony/serializer": "^6.4|^7.0",
                 "symfony/webpack-encore-bundle": "^1.0|^2.0"
+=======
+            "time": "2022-01-02T09:55:41+00:00"
+        },
+        {
+            "name": "symfony/error-handler",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/error-handler.git",
+                "reference": "c7df52182f43a68522756ac31a532dd5b1e6db67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/error-handler/zipball/c7df52182f43a68522756ac31a532dd5b1e6db67",
+                "reference": "c7df52182f43a68522756ac31a532dd5b1e6db67",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "psr/log": "^1|^2|^3",
+                "symfony/var-dumper": "^5.4|^6.0"
+            },
+            "require-dev": {
+                "symfony/deprecation-contracts": "^2.1|^3",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/serializer": "^5.4|^6.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "bin": [
                 "Resources/bin/patch-type-declarations"
@@ -3640,7 +4442,11 @@
             "description": "Provides tools to manage errors and ease debugging PHP code",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/error-handler/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/error-handler/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3652,14 +4458,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-11T10:12:26+00:00"
         },
         {
@@ -3683,6 +4493,30 @@
             "conflict": {
                 "symfony/dependency-injection": "<6.4",
                 "symfony/service-contracts": "<2.5"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "2eaf8e63bc5b8cefabd4a800157f0d0c094f677a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/2eaf8e63bc5b8cefabd4a800157f0d0c094f677a",
+                "reference": "2eaf8e63bc5b8cefabd4a800157f0d0c094f677a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/event-dispatcher-contracts": "^2|^3"
+            },
+            "conflict": {
+                "symfony/dependency-injection": "<5.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "provide": {
                 "psr/event-dispatcher-implementation": "1.0",
@@ -3690,6 +4524,7 @@
             },
             "require-dev": {
                 "psr/log": "^1|^2|^3",
+<<<<<<< HEAD
                 "symfony/config": "^6.4|^7.0",
                 "symfony/dependency-injection": "^6.4|^7.0",
                 "symfony/error-handler": "^6.4|^7.0",
@@ -3697,6 +4532,19 @@
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/stopwatch": "^6.4|^7.0"
+=======
+                "symfony/config": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/error-handler": "^5.4|^6.0",
+                "symfony/expression-language": "^5.4|^6.0",
+                "symfony/http-foundation": "^5.4|^6.0",
+                "symfony/service-contracts": "^1.1|^2|^3",
+                "symfony/stopwatch": "^5.4|^6.0"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -3724,7 +4572,11 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher/tree/v7.3.3"
+=======
+                "source": "https://github.com/symfony/event-dispatcher/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3736,14 +4588,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-08-13T11:49:31+00:00"
         },
         {
@@ -3764,6 +4620,31 @@
                 "php": ">=8.1",
                 "psr/event-dispatcher": "^1"
             },
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/event-dispatcher-contracts",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher-contracts.git",
+                "reference": "7bc61cc2db649b4637d331240c5346dcc7708051"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/7bc61cc2db649b4637d331240c5346dcc7708051",
+                "reference": "7bc61cc2db649b4637d331240c5346dcc7708051",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "psr/event-dispatcher": "^1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher-implementation": ""
+            },
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             "type": "library",
             "extra": {
                 "thanks": {
@@ -3771,7 +4652,11 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.6-dev"
+=======
+                    "dev-main": "3.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -3804,7 +4689,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.6.0"
+=======
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3820,6 +4709,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-09-25T14:21:43+00:00"
         },
         {
@@ -3841,6 +4731,26 @@
             },
             "require-dev": {
                 "symfony/filesystem": "^6.4|^7.0"
+=======
+            "time": "2022-01-02T09:55:41+00:00"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "5cc9cac6586fc0c28cd173780ca696e419fefa11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/5cc9cac6586fc0c28cd173780ca696e419fefa11",
+                "reference": "5cc9cac6586fc0c28cd173780ca696e419fefa11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -3868,7 +4778,11 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/finder/tree/v7.3.2"
+=======
+                "source": "https://github.com/symfony/finder/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3880,14 +4794,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-07-15T13:41:35+00:00"
         },
         {
@@ -3924,6 +4842,40 @@
                 "symfony/http-kernel": "^6.4|^7.0",
                 "symfony/mime": "^6.4|^7.0",
                 "symfony/rate-limiter": "^6.4|^7.0"
+=======
+            "time": "2023-01-20T17:44:14+00:00"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v6.0.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-foundation.git",
+                "reference": "e16b2676a4b3b1fa12378a20b29c364feda2a8d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/e16b2676a4b3b1fa12378a20b29c364feda2a8d6",
+                "reference": "e16b2676a4b3b1fa12378a20b29c364feda2a8d6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/deprecation-contracts": "^2.1|^3",
+                "symfony/polyfill-mbstring": "~1.1"
+            },
+            "require-dev": {
+                "predis/predis": "~1.0",
+                "symfony/cache": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/expression-language": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4.12|^6.0.12|^6.1.4",
+                "symfony/mime": "^5.4|^6.0",
+                "symfony/rate-limiter": "^5.2|^6.0"
+            },
+            "suggest": {
+                "symfony/mime": "To use the file extension guesser"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -3951,7 +4903,11 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v6.0.20"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -3963,14 +4919,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-16T08:38:17+00:00"
         },
         {
@@ -4014,12 +4974,54 @@
                 "symfony/validator": "<6.4",
                 "symfony/var-dumper": "<6.4",
                 "twig/twig": "<3.12"
+=======
+            "time": "2023-01-30T15:41:07+00:00"
+        },
+        {
+            "name": "symfony/http-kernel",
+            "version": "v6.0.20",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-kernel.git",
+                "reference": "6dc70833fd0ef5e861e17c7854c12d7d86679349"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/6dc70833fd0ef5e861e17c7854c12d7d86679349",
+                "reference": "6dc70833fd0ef5e861e17c7854c12d7d86679349",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "psr/log": "^1|^2|^3",
+                "symfony/error-handler": "^5.4|^6.0",
+                "symfony/event-dispatcher": "^5.4|^6.0",
+                "symfony/http-foundation": "^5.4|^6.0",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "conflict": {
+                "symfony/browser-kit": "<5.4",
+                "symfony/cache": "<5.4",
+                "symfony/config": "<5.4",
+                "symfony/console": "<5.4",
+                "symfony/dependency-injection": "<5.4",
+                "symfony/doctrine-bridge": "<5.4",
+                "symfony/form": "<5.4",
+                "symfony/http-client": "<5.4",
+                "symfony/mailer": "<5.4",
+                "symfony/messenger": "<5.4",
+                "symfony/translation": "<5.4",
+                "symfony/twig-bridge": "<5.4",
+                "symfony/validator": "<5.4",
+                "twig/twig": "<2.13"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "provide": {
                 "psr/log-implementation": "1.0|2.0|3.0"
             },
             "require-dev": {
                 "psr/cache": "^1.0|^2.0|^3.0",
+<<<<<<< HEAD
                 "symfony/browser-kit": "^6.4|^7.0",
                 "symfony/clock": "^6.4|^7.0",
                 "symfony/config": "^6.4|^7.0",
@@ -4042,6 +5044,29 @@
                 "symfony/var-dumper": "^6.4|^7.0",
                 "symfony/var-exporter": "^6.4|^7.0",
                 "twig/twig": "^3.12"
+=======
+                "symfony/browser-kit": "^5.4|^6.0",
+                "symfony/config": "^5.4|^6.0",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/css-selector": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/dom-crawler": "^5.4|^6.0",
+                "symfony/expression-language": "^5.4|^6.0",
+                "symfony/finder": "^5.4|^6.0",
+                "symfony/http-client-contracts": "^1.1|^2|^3",
+                "symfony/process": "^5.4|^6.0",
+                "symfony/routing": "^5.4|^6.0",
+                "symfony/stopwatch": "^5.4|^6.0",
+                "symfony/translation": "^5.4|^6.0",
+                "symfony/translation-contracts": "^1.1|^2|^3",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "suggest": {
+                "symfony/browser-kit": "",
+                "symfony/config": "",
+                "symfony/console": "",
+                "symfony/dependency-injection": ""
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -4069,7 +5094,11 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v6.0.20"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -4081,14 +5110,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-27T12:32:17+00:00"
         },
         {
@@ -4103,10 +5136,27 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mailer/zipball/ab97ef2f7acf0216955f5845484235113047a31d",
                 "reference": "ab97ef2f7acf0216955f5845484235113047a31d",
+=======
+            "time": "2023-02-01T08:22:55+00:00"
+        },
+        {
+            "name": "symfony/mailer",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/mailer.git",
+                "reference": "cd60799210c488f545ddde2444dc1aa548322872"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/mailer/zipball/cd60799210c488f545ddde2444dc1aa548322872",
+                "reference": "cd60799210c488f545ddde2444dc1aa548322872",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "shasum": ""
             },
             "require": {
                 "egulias/email-validator": "^2.1.10|^3|^4",
+<<<<<<< HEAD
                 "php": ">=8.2",
                 "psr/event-dispatcher": "^1",
                 "psr/log": "^1|^2|^3",
@@ -4126,6 +5176,21 @@
                 "symfony/http-client": "^6.4|^7.0",
                 "symfony/messenger": "^6.4|^7.0",
                 "symfony/twig-bridge": "^6.4|^7.0"
+=======
+                "php": ">=8.0.2",
+                "psr/event-dispatcher": "^1",
+                "psr/log": "^1|^2|^3",
+                "symfony/event-dispatcher": "^5.4|^6.0",
+                "symfony/mime": "^5.4|^6.0",
+                "symfony/service-contracts": "^1.1|^2|^3"
+            },
+            "conflict": {
+                "symfony/http-kernel": "<5.4"
+            },
+            "require-dev": {
+                "symfony/http-client-contracts": "^1.1|^2|^3",
+                "symfony/messenger": "^5.4|^6.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -4153,7 +5218,11 @@
             "description": "Helps sending emails",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mailer/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/mailer/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -4165,14 +5234,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-17T05:51:54+00:00"
         },
         {
@@ -4191,6 +5264,26 @@
             },
             "require": {
                 "php": ">=8.2",
+=======
+            "time": "2023-01-11T11:50:03+00:00"
+        },
+        {
+            "name": "symfony/mime",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/mime.git",
+                "reference": "d7052547a0070cbeadd474e172b527a00d657301"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/d7052547a0070cbeadd474e172b527a00d657301",
+                "reference": "d7052547a0070cbeadd474e172b527a00d657301",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "symfony/polyfill-intl-idn": "^1.10",
                 "symfony/polyfill-mbstring": "^1.0"
             },
@@ -4198,6 +5291,7 @@
                 "egulias/email-validator": "~3.0.0",
                 "phpdocumentor/reflection-docblock": "<3.2.2",
                 "phpdocumentor/type-resolver": "<1.4.0",
+<<<<<<< HEAD
                 "symfony/mailer": "<6.4",
                 "symfony/serializer": "<6.4.3|>7.0,<7.0.3"
             },
@@ -4210,6 +5304,18 @@
                 "symfony/property-access": "^6.4|^7.0",
                 "symfony/property-info": "^6.4|^7.0",
                 "symfony/serializer": "^6.4.3|^7.0.3"
+=======
+                "symfony/mailer": "<5.4",
+                "symfony/serializer": "<5.4.14|>=6.0,<6.0.14|>=6.1,<6.1.6"
+            },
+            "require-dev": {
+                "egulias/email-validator": "^2.1.10|^3.1|^4",
+                "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/property-access": "^5.4|^6.0",
+                "symfony/property-info": "^5.4|^6.0",
+                "symfony/serializer": "^5.4.14|~6.0.14|^6.1.6"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -4241,7 +5347,11 @@
                 "mime-type"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/mime/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -4253,15 +5363,22 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-16T08:38:17+00:00"
+=======
+            "time": "2023-01-11T11:50:03+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -4770,6 +5887,7 @@
             "time": "2025-01-02T08:10:11+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/polyfill-php83",
             "version": "v1.33.0",
             "source": {
@@ -4781,6 +5899,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php83/zipball/17f6f9a6b1735c0f163024d959f700cfbc5155e5",
                 "reference": "17f6f9a6b1735c0f163024d959f700cfbc5155e5",
+=======
+            "name": "symfony/polyfill-php81",
+            "version": "v1.33.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php81.git",
+                "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+                "reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "shasum": ""
             },
             "require": {
@@ -4798,7 +5929,11 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
+<<<<<<< HEAD
                     "Symfony\\Polyfill\\Php83\\": ""
+=======
+                    "Symfony\\Polyfill\\Php81\\": ""
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -4818,7 +5953,11 @@
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
+<<<<<<< HEAD
             "description": "Symfony polyfill backporting some PHP 8.3+ features to lower PHP versions",
+=======
+            "description": "Symfony polyfill backporting some PHP 8.1+ features to lower PHP versions",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             "homepage": "https://symfony.com",
             "keywords": [
                 "compatibility",
@@ -4827,7 +5966,11 @@
                 "shim"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php83/tree/v1.33.0"
+=======
+                "source": "https://github.com/symfony/polyfill-php81/tree/v1.33.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -4847,6 +5990,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-07-08T02:45:35+00:00"
         },
         {
@@ -5008,6 +6152,9 @@
                 }
             ],
             "time": "2025-06-23T16:12:55+00:00"
+=======
+            "time": "2024-09-09T11:45:10+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "symfony/polyfill-uuid",
@@ -5094,6 +6241,7 @@
         },
         {
             "name": "symfony/process",
+<<<<<<< HEAD
             "version": "v7.3.4",
             "source": {
                 "type": "git",
@@ -5108,6 +6256,22 @@
             },
             "require": {
                 "php": ">=8.2"
+=======
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "2114fd60f26a296cc403a7939ab91478475a33d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/2114fd60f26a296cc403a7939ab91478475a33d4",
+                "reference": "2114fd60f26a296cc403a7939ab91478475a33d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -5135,7 +6299,11 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/process/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/process/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5147,14 +6315,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-11T10:12:26+00:00"
         },
         {
@@ -5187,6 +6359,47 @@
                 "symfony/expression-language": "^6.4|^7.0",
                 "symfony/http-foundation": "^6.4|^7.0",
                 "symfony/yaml": "^6.4|^7.0"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/routing",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/routing.git",
+                "reference": "e56ca9b41c1ec447193474cd86ad7c0b547755ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/e56ca9b41c1ec447193474cd86ad7c0b547755ac",
+                "reference": "e56ca9b41c1ec447193474cd86ad7c0b547755ac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2"
+            },
+            "conflict": {
+                "doctrine/annotations": "<1.12",
+                "symfony/config": "<5.4",
+                "symfony/dependency-injection": "<5.4",
+                "symfony/yaml": "<5.4"
+            },
+            "require-dev": {
+                "doctrine/annotations": "^1.12|^2",
+                "psr/log": "^1|^2|^3",
+                "symfony/config": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/expression-language": "^5.4|^6.0",
+                "symfony/http-foundation": "^5.4|^6.0",
+                "symfony/yaml": "^5.4|^6.0"
+            },
+            "suggest": {
+                "symfony/config": "For using the all-in-one router or any loader",
+                "symfony/expression-language": "For using expression matching",
+                "symfony/http-foundation": "For using a Symfony Request object",
+                "symfony/yaml": "For using the YAML loader"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -5220,7 +6433,11 @@
                 "url"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/routing/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/routing/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5232,14 +6449,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-11T10:12:26+00:00"
         },
         {
@@ -5260,10 +6481,37 @@
                 "php": ">=8.1",
                 "psr/container": "^1.1|^2.0",
                 "symfony/deprecation-contracts": "^2.5|^3"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/service-contracts",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/service-contracts.git",
+                "reference": "d78d39c1599bd1188b8e26bb341da52c3c6d8a66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/d78d39c1599bd1188b8e26bb341da52c3c6d8a66",
+                "reference": "d78d39c1599bd1188b8e26bb341da52c3c6d8a66",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "psr/container": "^2.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "conflict": {
                 "ext-psr": "<1.1|>=2"
             },
+<<<<<<< HEAD
+=======
+            "suggest": {
+                "symfony/service-implementation": ""
+            },
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             "type": "library",
             "extra": {
                 "thanks": {
@@ -5271,16 +6519,24 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.6-dev"
+=======
+                    "dev-main": "3.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Contracts\\Service\\": ""
+<<<<<<< HEAD
                 },
                 "exclude-from-classmap": [
                     "/Test/"
                 ]
+=======
+                }
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5307,7 +6563,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/service-contracts/tree/v3.6.0"
+=======
+                "source": "https://github.com/symfony/service-contracts/tree/v3.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5323,6 +6583,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-04-25T09:37:31+00:00"
         },
         {
@@ -5341,12 +6602,33 @@
             },
             "require": {
                 "php": ">=8.2",
+=======
+            "time": "2022-05-30T19:17:58+00:00"
+        },
+        {
+            "name": "symfony/string",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/string.git",
+                "reference": "d9e72497367c23e08bf94176d2be45b00a9d232a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/string/zipball/d9e72497367c23e08bf94176d2be45b00a9d232a",
+                "reference": "d9e72497367c23e08bf94176d2be45b00a9d232a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-grapheme": "~1.0",
                 "symfony/polyfill-intl-normalizer": "~1.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "conflict": {
+<<<<<<< HEAD
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
@@ -5355,6 +6637,15 @@
                 "symfony/intl": "^6.4|^7.0",
                 "symfony/translation-contracts": "^2.5|^3.0",
                 "symfony/var-exporter": "^6.4|^7.0"
+=======
+                "symfony/translation-contracts": "<2.0"
+            },
+            "require-dev": {
+                "symfony/error-handler": "^5.4|^6.0",
+                "symfony/http-client": "^5.4|^6.0",
+                "symfony/translation-contracts": "^2.0|^3.0",
+                "symfony/var-exporter": "^5.4|^6.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -5393,7 +6684,11 @@
                 "utf8"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/string/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/string/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5405,14 +6700,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-11T14:36:48+00:00"
         },
         {
@@ -5445,11 +6744,42 @@
                 "symfony/service-contracts": "<2.5",
                 "symfony/twig-bundle": "<6.4",
                 "symfony/yaml": "<6.4"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "9c24b3fdbbe9fb2ef3a6afd8bbaadfd72dad681f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/9c24b3fdbbe9fb2ef3a6afd8bbaadfd72dad681f",
+                "reference": "9c24b3fdbbe9fb2ef3a6afd8bbaadfd72dad681f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/polyfill-mbstring": "~1.0",
+                "symfony/translation-contracts": "^2.3|^3.0"
+            },
+            "conflict": {
+                "symfony/config": "<5.4",
+                "symfony/console": "<5.4",
+                "symfony/dependency-injection": "<5.4",
+                "symfony/http-kernel": "<5.4",
+                "symfony/twig-bundle": "<5.4",
+                "symfony/yaml": "<5.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "provide": {
                 "symfony/translation-implementation": "2.3|3.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "nikic/php-parser": "^5.0",
                 "psr/log": "^1|^2|^3",
                 "symfony/config": "^6.4|^7.0",
@@ -5463,6 +6793,24 @@
                 "symfony/routing": "^6.4|^7.0",
                 "symfony/service-contracts": "^2.5|^3",
                 "symfony/yaml": "^6.4|^7.0"
+=======
+                "psr/log": "^1|^2|^3",
+                "symfony/config": "^5.4|^6.0",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/dependency-injection": "^5.4|^6.0",
+                "symfony/finder": "^5.4|^6.0",
+                "symfony/http-client-contracts": "^1.1|^2.0|^3.0",
+                "symfony/http-kernel": "^5.4|^6.0",
+                "symfony/intl": "^5.4|^6.0",
+                "symfony/polyfill-intl-icu": "^1.21",
+                "symfony/service-contracts": "^1.1.2|^2|^3",
+                "symfony/yaml": "^5.4|^6.0"
+            },
+            "suggest": {
+                "psr/log-implementation": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -5493,7 +6841,11 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/translation/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5505,14 +6857,18 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-07T11:39:36+00:00"
         },
         {
@@ -5531,6 +6887,29 @@
             },
             "require": {
                 "php": ">=8.1"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/translation-contracts",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation-contracts.git",
+                "reference": "acbfbb274e730e5a0236f619b6168d9dedb3e282"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/acbfbb274e730e5a0236f619b6168d9dedb3e282",
+                "reference": "acbfbb274e730e5a0236f619b6168d9dedb3e282",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2"
+            },
+            "suggest": {
+                "symfony/translation-implementation": ""
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
@@ -5539,16 +6918,24 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.6-dev"
+=======
+                    "dev-main": "3.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Contracts\\Translation\\": ""
+<<<<<<< HEAD
                 },
                 "exclude-from-classmap": [
                     "/Test/"
                 ]
+=======
+                }
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5575,7 +6962,11 @@
                 "standards"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation-contracts/tree/v3.6.0"
+=======
+                "source": "https://github.com/symfony/translation-contracts/tree/v3.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5591,6 +6982,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-09-27T08:32:26+00:00"
         },
         {
@@ -5613,6 +7005,30 @@
             },
             "require-dev": {
                 "symfony/console": "^6.4|^7.0"
+=======
+            "time": "2022-06-27T17:10:44+00:00"
+        },
+        {
+            "name": "symfony/uid",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/uid.git",
+                "reference": "6499e28b0ac9f2aa3151e11845bdb5cd21e6bb9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/uid/zipball/6499e28b0ac9f2aa3151e11845bdb5cd21e6bb9d",
+                "reference": "6499e28b0ac9f2aa3151e11845bdb5cd21e6bb9d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/polyfill-uuid": "^1.15"
+            },
+            "require-dev": {
+                "symfony/console": "^5.4|^6.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "autoload": {
@@ -5649,7 +7065,11 @@
                 "uuid"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/uid/tree/v7.3.1"
+=======
+                "source": "https://github.com/symfony/uid/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5665,6 +7085,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-06-27T19:55:54+00:00"
         },
         {
@@ -5695,6 +7116,43 @@
                 "symfony/process": "^6.4|^7.0",
                 "symfony/uid": "^6.4|^7.0",
                 "twig/twig": "^3.12"
+=======
+            "time": "2023-01-01T08:36:10+00:00"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "eb980457fa6899840fe1687e8627a03a7d8a3d52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/eb980457fa6899840fe1687e8627a03a7d8a3d52",
+                "reference": "eb980457fa6899840fe1687e8627a03a7d8a3d52",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<5.4.3",
+                "symfony/console": "<5.4"
+            },
+            "require-dev": {
+                "ext-iconv": "*",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/process": "^5.4|^6.0",
+                "symfony/uid": "^5.4|^6.0",
+                "twig/twig": "^2.13|^3.0.4"
+            },
+            "suggest": {
+                "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+                "ext-intl": "To show region name in time zone dump",
+                "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "bin": [
                 "Resources/bin/var-dump-server"
@@ -5732,7 +7190,11 @@
                 "dump"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v7.3.4"
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -5744,15 +7206,22 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-11T10:12:26+00:00"
+=======
+            "time": "2023-01-20T17:44:14+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -6028,6 +7497,79 @@
     ],
     "packages-dev": [
         {
+<<<<<<< HEAD
+=======
+            "name": "doctrine/instantiator",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/instantiator.git",
+                "reference": "0a0fa9780f5d4e507415a065172d26a98d02047b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/0a0fa9780f5d4e507415a065172d26a98d02047b",
+                "reference": "0a0fa9780f5d4e507415a065172d26a98d02047b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^9 || ^11",
+                "ext-pdo": "*",
+                "ext-phar": "*",
+                "phpbench/phpbench": "^0.16 || ^1",
+                "phpstan/phpstan": "^1.4",
+                "phpstan/phpstan-phpunit": "^1",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "vimeo/psalm": "^4.30 || ^5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Pivetta",
+                    "email": "ocramius@gmail.com",
+                    "homepage": "https://ocramius.github.io/"
+                }
+            ],
+            "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
+            "homepage": "https://www.doctrine-project.org/projects/instantiator.html",
+            "keywords": [
+                "constructor",
+                "instantiate"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/instantiator/issues",
+                "source": "https://github.com/doctrine/instantiator/tree/1.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-12-30T00:15:36+00:00"
+        },
+        {
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             "name": "fakerphp/faker",
             "version": "v1.24.1",
             "source": {
@@ -6213,6 +7755,7 @@
             "time": "2025-04-30T06:54:44+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/pail",
             "version": "v1.2.3",
             "source": {
@@ -6303,6 +7846,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/5016e263f95d97670d71b9a987bd8996ade6d8d9",
                 "reference": "5016e263f95d97670d71b9a987bd8996ade6d8d9",
+=======
+            "name": "laravel/pint",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "e0a8cef58b74662f27355be9cdea0e726bbac362"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/e0a8cef58b74662f27355be9cdea0e726bbac362",
+                "reference": "e0a8cef58b74662f27355be9cdea0e726bbac362",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "shasum": ""
             },
             "require": {
@@ -6310,6 +7866,7 @@
                 "ext-mbstring": "*",
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
+<<<<<<< HEAD
                 "php": "^8.2.0"
             },
             "require-dev": {
@@ -6320,6 +7877,18 @@
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^2.3.1",
                 "pestphp/pest": "^2.36.0"
+=======
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.14.4",
+                "illuminate/view": "^9.51.0",
+                "laravel-zero/framework": "^9.2.0",
+                "mockery/mockery": "^1.5.1",
+                "nunomaduro/larastan": "^2.4.0",
+                "nunomaduro/termwind": "^1.15.1",
+                "pestphp/pest": "^1.22.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "bin": [
                 "builds/pint"
@@ -6355,7 +7924,11 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
+<<<<<<< HEAD
             "time": "2025-09-19T02:57:12+00:00"
+=======
+            "time": "2023-02-14T16:31:02+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "laravel/sail",
@@ -6565,6 +8138,7 @@
         },
         {
             "name": "nunomaduro/collision",
+<<<<<<< HEAD
             "version": "v8.8.2",
             "source": {
                 "type": "git",
@@ -6598,6 +8172,34 @@
                 "orchestra/testbench-core": "^9.12.0 || ^10.4",
                 "pestphp/pest": "^3.8.2",
                 "sebastian/environment": "^7.2.1 || ^8.0"
+=======
+            "version": "v6.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/collision.git",
+                "reference": "f05978827b9343cba381ca05b8c7deee346b6015"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/f05978827b9343cba381ca05b8c7deee346b6015",
+                "reference": "f05978827b9343cba381ca05b8c7deee346b6015",
+                "shasum": ""
+            },
+            "require": {
+                "filp/whoops": "^2.14.5",
+                "php": "^8.0.0",
+                "symfony/console": "^6.0.2"
+            },
+            "require-dev": {
+                "brianium/paratest": "^6.4.1",
+                "laravel/framework": "^9.26.1",
+                "laravel/pint": "^1.1.1",
+                "nunomaduro/larastan": "^1.0.3",
+                "nunomaduro/mock-final-classes": "^1.1.0",
+                "orchestra/testbench": "^7.7",
+                "phpunit/phpunit": "^9.5.23",
+                "spatie/ignition": "^1.4.1"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
@@ -6607,6 +8209,7 @@
                     ]
                 },
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-8.x": "8.x-dev"
                 }
             },
@@ -6614,6 +8217,12 @@
                 "files": [
                     "./src/Adapters/Phpunit/Autoload.php"
                 ],
+=======
+                    "dev-develop": "6.x-dev"
+                }
+            },
+            "autoload": {
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "psr-4": {
                     "NunoMaduro\\Collision\\": "src/"
                 }
@@ -6634,7 +8243,10 @@
                 "cli",
                 "command-line",
                 "console",
+<<<<<<< HEAD
                 "dev",
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "error",
                 "handling",
                 "laravel",
@@ -6660,7 +8272,11 @@
                     "type": "patreon"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-06-25T02:12:12+00:00"
+=======
+            "time": "2023-01-03T12:54:54+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "phar-io/manifest",
@@ -6782,6 +8398,7 @@
         },
         {
             "name": "phpunit/php-code-coverage",
+<<<<<<< HEAD
             "version": "11.0.11",
             "source": {
                 "type": "git",
@@ -6792,12 +8409,25 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4",
                 "reference": "4f7722aa9a7b76aa775e2d9d4e95d1ea16eeeef4",
+=======
+            "version": "9.2.32",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "85402a822d1ecf1db1096959413d35e1c37cf1a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/85402a822d1ecf1db1096959413d35e1c37cf1a5",
+                "reference": "85402a822d1ecf1db1096959413d35e1c37cf1a5",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
+<<<<<<< HEAD
                 "nikic/php-parser": "^5.4.0",
                 "php": ">=8.2",
                 "phpunit/php-file-iterator": "^5.1.0",
@@ -6811,6 +8441,21 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.5.2"
+=======
+                "nikic/php-parser": "^4.19.1 || ^5.1.0",
+                "php": ">=7.3",
+                "phpunit/php-file-iterator": "^3.0.6",
+                "phpunit/php-text-template": "^2.0.4",
+                "sebastian/code-unit-reverse-lookup": "^2.0.3",
+                "sebastian/complexity": "^2.0.3",
+                "sebastian/environment": "^5.1.5",
+                "sebastian/lines-of-code": "^1.0.4",
+                "sebastian/version": "^3.0.2",
+                "theseer/tokenizer": "^1.2.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.6"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "suggest": {
                 "ext-pcov": "PHP extension that provides line coverage",
@@ -6819,7 +8464,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "11.0.x-dev"
+=======
+                    "dev-main": "9.2.x-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -6848,12 +8497,17 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/11.0.11"
+=======
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.32"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+<<<<<<< HEAD
                 },
                 {
                     "url": "https://liberapay.com/sebastianbergmann",
@@ -6889,11 +8543,40 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+                }
+            ],
+            "time": "2024-08-22T04:23:01+00:00"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "3.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+                "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "5.0-dev"
+=======
+                    "dev-master": "3.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -6920,8 +8603,12 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
                 "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.1.0"
+=======
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/3.0.6"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -6929,6 +8616,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-08-27T05:02:59+00:00"
         },
         {
@@ -6951,6 +8639,30 @@
             "require-dev": {
                 "ext-pcntl": "*",
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2021-12-02T12:48:52+00:00"
+        },
+        {
+            "name": "phpunit/php-invoker",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-invoker.git",
+                "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-invoker/zipball/5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
+                "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "ext-pcntl": "*",
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "suggest": {
                 "ext-pcntl": "*"
@@ -6958,7 +8670,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "5.0-dev"
+=======
+                    "dev-master": "3.1-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -6984,8 +8700,12 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-invoker/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/php-invoker/security/policy",
                 "source": "https://github.com/sebastianbergmann/php-invoker/tree/5.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/php-invoker/tree/3.1.1"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -6993,6 +8713,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T05:07:44+00:00"
         },
         {
@@ -7014,11 +8735,38 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2020-09-28T05:58:55+00:00"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+                "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-master": "2.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7044,8 +8792,12 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/php-text-template/security/policy",
                 "source": "https://github.com/sebastianbergmann/php-text-template/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/php-text-template/tree/2.0.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7053,6 +8805,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T05:08:43+00:00"
         },
         {
@@ -7074,11 +8827,38 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2020-10-26T05:33:50+00:00"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "5.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+                "reference": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "7.0-dev"
+=======
+                    "dev-master": "5.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7104,8 +8884,12 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-timer/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/php-timer/security/policy",
                 "source": "https://github.com/sebastianbergmann/php-timer/tree/7.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/php-timer/tree/5.0.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7113,6 +8897,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T05:09:35+00:00"
         },
         {
@@ -7130,6 +8915,26 @@
                 "shasum": ""
             },
             "require": {
+=======
+            "time": "2020-10-26T13:16:10+00:00"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "9.6.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "9ecfec57835a5581bc888ea7e13b51eb55ab9dd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9ecfec57835a5581bc888ea7e13b51eb55ab9dd3",
+                "reference": "9ecfec57835a5581bc888ea7e13b51eb55ab9dd3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/instantiator": "^1.5.0 || ^2",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "ext-dom": "*",
                 "ext-json": "*",
                 "ext-libxml": "*",
@@ -7139,6 +8944,7 @@
                 "myclabs/deep-copy": "^1.13.4",
                 "phar-io/manifest": "^2.0.4",
                 "phar-io/version": "^3.2.1",
+<<<<<<< HEAD
                 "php": ">=8.2",
                 "phpunit/php-code-coverage": "^11.0.11",
                 "phpunit/php-file-iterator": "^5.1.0",
@@ -7159,6 +8965,29 @@
             },
             "suggest": {
                 "ext-soap": "To be able to generate mocks based on WSDL files"
+=======
+                "php": ">=7.3",
+                "phpunit/php-code-coverage": "^9.2.32",
+                "phpunit/php-file-iterator": "^3.0.6",
+                "phpunit/php-invoker": "^3.1.1",
+                "phpunit/php-text-template": "^2.0.4",
+                "phpunit/php-timer": "^5.0.3",
+                "sebastian/cli-parser": "^1.0.2",
+                "sebastian/code-unit": "^1.0.8",
+                "sebastian/comparator": "^4.0.9",
+                "sebastian/diff": "^4.0.6",
+                "sebastian/environment": "^5.1.5",
+                "sebastian/exporter": "^4.0.8",
+                "sebastian/global-state": "^5.0.8",
+                "sebastian/object-enumerator": "^4.0.4",
+                "sebastian/resource-operations": "^3.0.4",
+                "sebastian/type": "^3.2.1",
+                "sebastian/version": "^3.0.2"
+            },
+            "suggest": {
+                "ext-soap": "To be able to generate mocks based on WSDL files",
+                "ext-xdebug": "PHP extension that provides line coverage as well as branch and path coverage"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "bin": [
                 "phpunit"
@@ -7166,7 +8995,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "11.5-dev"
+=======
+                    "dev-master": "9.6-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7198,7 +9031,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.42"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.29"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7222,6 +9059,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-28T12:09:13+00:00"
         },
         {
@@ -7243,11 +9081,38 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2025-09-24T06:29:11+00:00"
+        },
+        {
+            "name": "sebastian/cli-parser",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/cli-parser.git",
+                "reference": "2b56bea83a09de3ac06bb18b92f068e60cc6f50b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/cli-parser/zipball/2b56bea83a09de3ac06bb18b92f068e60cc6f50b",
+                "reference": "2b56bea83a09de3ac06bb18b92f068e60cc6f50b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.0-dev"
+=======
+                    "dev-master": "1.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7270,8 +9135,12 @@
             "homepage": "https://github.com/sebastianbergmann/cli-parser",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/cli-parser/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/cli-parser/security/policy",
                 "source": "https://github.com/sebastianbergmann/cli-parser/tree/3.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/cli-parser/tree/1.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7279,6 +9148,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T04:41:36+00:00"
         },
         {
@@ -7300,11 +9170,38 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.5"
+=======
+            "time": "2024-03-02T06:27:43+00:00"
+        },
+        {
+            "name": "sebastian/code-unit",
+            "version": "1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/code-unit.git",
+                "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit/zipball/1fc9f64c0927627ef78ba436c9b17d967e68e120",
+                "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.0-dev"
+=======
+                    "dev-master": "1.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7327,8 +9224,12 @@
             "homepage": "https://github.com/sebastianbergmann/code-unit",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/code-unit/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/code-unit/security/policy",
                 "source": "https://github.com/sebastianbergmann/code-unit/tree/3.0.3"
+=======
+                "source": "https://github.com/sebastianbergmann/code-unit/tree/1.0.8"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7336,6 +9237,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-03-19T07:56:08+00:00"
         },
         {
@@ -7357,11 +9259,38 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2020-10-26T13:08:54+00:00"
+        },
+        {
+            "name": "sebastian/code-unit-reverse-lookup",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
+                "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
+                "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-master": "2.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7383,8 +9312,12 @@
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/security/policy",
                 "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/2.0.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7392,6 +9325,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T04:45:54+00:00"
         },
         {
@@ -7420,11 +9354,40 @@
             },
             "suggest": {
                 "ext-bcmath": "For comparing BcMath\\Number objects"
+=======
+            "time": "2020-09-28T05:30:19+00:00"
+        },
+        {
+            "name": "sebastian/comparator",
+            "version": "4.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/comparator.git",
+                "reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
+                "reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "sebastian/diff": "^4.0",
+                "sebastian/exporter": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "6.3-dev"
+=======
+                    "dev-master": "4.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7463,8 +9426,12 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/comparator/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/comparator/security/policy",
                 "source": "https://github.com/sebastianbergmann/comparator/tree/6.3.2"
+=======
+                "source": "https://github.com/sebastianbergmann/comparator/tree/4.0.9"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7484,6 +9451,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-08-10T08:07:46+00:00"
         },
         {
@@ -7506,11 +9474,39 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2025-08-10T06:51:50+00:00"
+        },
+        {
+            "name": "sebastian/complexity",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/complexity.git",
+                "reference": "25f207c40d62b8b7aa32f5ab026c53561964053a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/25f207c40d62b8b7aa32f5ab026c53561964053a",
+                "reference": "25f207c40d62b8b7aa32f5ab026c53561964053a",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "^4.18 || ^5.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-master": "2.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7533,8 +9529,12 @@
             "homepage": "https://github.com/sebastianbergmann/complexity",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/complexity/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/complexity/security/policy",
                 "source": "https://github.com/sebastianbergmann/complexity/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/complexity/tree/2.0.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7542,6 +9542,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T04:49:50+00:00"
         },
         {
@@ -7563,12 +9564,39 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0",
+=======
+            "time": "2023-12-22T06:19:30+00:00"
+        },
+        {
+            "name": "sebastian/diff",
+            "version": "4.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
+                "reference": "ba01945089c3a293b01ba9badc29ad55b106b0bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/ba01945089c3a293b01ba9badc29ad55b106b0bc",
+                "reference": "ba01945089c3a293b01ba9badc29ad55b106b0bc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 "symfony/process": "^4.2 || ^5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "6.0-dev"
+=======
+                    "dev-master": "4.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7600,8 +9628,12 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/diff/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/diff/security/policy",
                 "source": "https://github.com/sebastianbergmann/diff/tree/6.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/diff/tree/4.0.6"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7609,6 +9641,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T04:53:05+00:00"
         },
         {
@@ -7630,6 +9663,29 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
+=======
+            "time": "2024-03-02T06:30:58+00:00"
+        },
+        {
+            "name": "sebastian/environment",
+            "version": "5.1.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/environment.git",
+                "reference": "830c43a844f1f8d5b7a1f6d6076b784454d8b7ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/830c43a844f1f8d5b7a1f6d6076b784454d8b7ed",
+                "reference": "830c43a844f1f8d5b7a1f6d6076b784454d8b7ed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "suggest": {
                 "ext-posix": "*"
@@ -7637,7 +9693,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "7.2-dev"
+=======
+                    "dev-master": "5.1-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7656,7 +9716,11 @@
                 }
             ],
             "description": "Provides functionality to handle HHVM/PHP environments",
+<<<<<<< HEAD
             "homepage": "https://github.com/sebastianbergmann/environment",
+=======
+            "homepage": "http://www.github.com/sebastianbergmann/environment",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             "keywords": [
                 "Xdebug",
                 "environment",
@@ -7664,13 +9728,18 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/environment/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/environment/security/policy",
                 "source": "https://github.com/sebastianbergmann/environment/tree/7.2.1"
+=======
+                "source": "https://github.com/sebastianbergmann/environment/tree/5.1.5"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+<<<<<<< HEAD
                 },
                 {
                     "url": "https://liberapay.com/sebastianbergmann",
@@ -7708,11 +9777,42 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
+=======
+                }
+            ],
+            "time": "2023-02-03T06:03:51+00:00"
+        },
+        {
+            "name": "sebastian/exporter",
+            "version": "4.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "14c6ba52f95a36c3d27c835d65efc7123c446e8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/14c6ba52f95a36c3d27c835d65efc7123c446e8c",
+                "reference": "14c6ba52f95a36c3d27c835d65efc7123c446e8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "sebastian/recursion-context": "^4.0"
+            },
+            "require-dev": {
+                "ext-mbstring": "*",
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "6.3-dev"
+=======
+                    "dev-master": "4.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7754,8 +9854,12 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
                 "source": "https://github.com/sebastianbergmann/exporter/tree/6.3.2"
+=======
+                "source": "https://github.com/sebastianbergmann/exporter/tree/4.0.8"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7775,6 +9879,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-09-24T06:12:51+00:00"
         },
         {
@@ -7799,11 +9904,44 @@
             "require-dev": {
                 "ext-dom": "*",
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2025-09-24T06:03:27+00:00"
+        },
+        {
+            "name": "sebastian/global-state",
+            "version": "5.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/global-state.git",
+                "reference": "b6781316bdcd28260904e7cc18ec983d0d2ef4f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/b6781316bdcd28260904e7cc18ec983d0d2ef4f6",
+                "reference": "b6781316bdcd28260904e7cc18ec983d0d2ef4f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "sebastian/object-reflector": "^2.0",
+                "sebastian/recursion-context": "^4.0"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "phpunit/phpunit": "^9.3"
+            },
+            "suggest": {
+                "ext-uopz": "*"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "7.0-dev"
+=======
+                    "dev-master": "5.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7822,19 +9960,28 @@
                 }
             ],
             "description": "Snapshotting of global state",
+<<<<<<< HEAD
             "homepage": "https://www.github.com/sebastianbergmann/global-state",
+=======
+            "homepage": "http://www.github.com/sebastianbergmann/global-state",
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             "keywords": [
                 "global state"
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/global-state/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/global-state/security/policy",
                 "source": "https://github.com/sebastianbergmann/global-state/tree/7.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/global-state/tree/5.0.8"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+<<<<<<< HEAD
                 }
             ],
             "time": "2024-07-03T04:57:36+00:00"
@@ -7859,11 +10006,53 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+                },
+                {
+                    "url": "https://liberapay.com/sebastianbergmann",
+                    "type": "liberapay"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/sebastianbergmann",
+                    "type": "thanks_dev"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/sebastian/global-state",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-08-10T07:10:35+00:00"
+        },
+        {
+            "name": "sebastian/lines-of-code",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/lines-of-code.git",
+                "reference": "e1e4a170560925c26d424b6a03aed157e7dcc5c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/e1e4a170560925c26d424b6a03aed157e7dcc5c5",
+                "reference": "e1e4a170560925c26d424b6a03aed157e7dcc5c5",
+                "shasum": ""
+            },
+            "require": {
+                "nikic/php-parser": "^4.18 || ^5.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "3.0-dev"
+=======
+                    "dev-master": "1.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7886,8 +10075,12 @@
             "homepage": "https://github.com/sebastianbergmann/lines-of-code",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/lines-of-code/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/lines-of-code/security/policy",
                 "source": "https://github.com/sebastianbergmann/lines-of-code/tree/3.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/1.0.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7895,6 +10088,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T04:58:38+00:00"
         },
         {
@@ -7918,11 +10112,40 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2023-12-22T06:20:34+00:00"
+        },
+        {
+            "name": "sebastian/object-enumerator",
+            "version": "4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+                "reference": "5c9eeac41b290a3712d88851518825ad78f45c71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/5c9eeac41b290a3712d88851518825ad78f45c71",
+                "reference": "5c9eeac41b290a3712d88851518825ad78f45c71",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "sebastian/object-reflector": "^2.0",
+                "sebastian/recursion-context": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "6.0-dev"
+=======
+                    "dev-master": "4.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -7944,8 +10167,12 @@
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/object-enumerator/security/policy",
                 "source": "https://github.com/sebastianbergmann/object-enumerator/tree/6.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/4.0.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -7953,6 +10180,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T05:00:13+00:00"
         },
         {
@@ -7974,11 +10202,38 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.0"
+=======
+            "time": "2020-10-26T13:12:34+00:00"
+        },
+        {
+            "name": "sebastian/object-reflector",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-reflector.git",
+                "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
+                "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "4.0-dev"
+=======
+                    "dev-master": "2.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -8000,8 +10255,12 @@
             "homepage": "https://github.com/sebastianbergmann/object-reflector/",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/object-reflector/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/object-reflector/security/policy",
                 "source": "https://github.com/sebastianbergmann/object-reflector/tree/4.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/object-reflector/tree/2.0.4"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -8009,6 +10268,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-07-03T05:01:32+00:00"
         },
         {
@@ -8030,11 +10290,38 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
+=======
+            "time": "2020-10-26T13:14:26+00:00"
+        },
+        {
+            "name": "sebastian/recursion-context",
+            "version": "4.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "539c6691e0623af6dc6f9c20384c120f963465a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/539c6691e0623af6dc6f9c20384c120f963465a0",
+                "reference": "539c6691e0623af6dc6f9c20384c120f963465a0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "6.0-dev"
+=======
+                    "dev-master": "4.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -8064,8 +10351,12 @@
             "homepage": "https://github.com/sebastianbergmann/recursion-context",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/recursion-context/security/policy",
                 "source": "https://github.com/sebastianbergmann/recursion-context/tree/6.0.3"
+=======
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.6"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -8085,6 +10376,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-08-13T04:42:22+00:00"
         },
         {
@@ -8106,11 +10398,92 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^11.3"
+=======
+            "time": "2025-08-10T06:57:39+00:00"
+        },
+        {
+            "name": "sebastian/resource-operations",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/resource-operations.git",
+                "reference": "05d5692a7993ecccd56a03e40cd7e5b09b1d404e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/05d5692a7993ecccd56a03e40cd7e5b09b1d404e",
+                "reference": "05d5692a7993ecccd56a03e40cd7e5b09b1d404e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "5.1-dev"
+=======
+                    "dev-main": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides a list of PHP built-in functions that operate on resources",
+            "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
+            "support": {
+                "source": "https://github.com/sebastianbergmann/resource-operations/tree/3.0.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-03-14T16:00:52+00:00"
+        },
+        {
+            "name": "sebastian/type",
+            "version": "3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/type.git",
+                "reference": "75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7",
+                "reference": "75e2c2a32f5e0b3aef905b9ed0b179b953b3d7c7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -8133,13 +10506,18 @@
             "homepage": "https://github.com/sebastianbergmann/type",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/type/security/policy",
                 "source": "https://github.com/sebastianbergmann/type/tree/5.1.3"
+=======
+                "source": "https://github.com/sebastianbergmann/type/tree/3.2.1"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+<<<<<<< HEAD
                 },
                 {
                     "url": "https://liberapay.com/sebastianbergmann",
@@ -8172,11 +10550,37 @@
             },
             "require": {
                 "php": ">=8.2"
+=======
+                }
+            ],
+            "time": "2023-02-03T06:13:03+00:00"
+        },
+        {
+            "name": "sebastian/version",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "c6c1022351a901512170118436c764e473f6de8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/c6c1022351a901512170118436c764e473f6de8c",
+                "reference": "c6c1022351a901512170118436c764e473f6de8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "5.0-dev"
+=======
+                    "dev-master": "3.0-dev"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                 }
             },
             "autoload": {
@@ -8199,8 +10603,12 @@
             "homepage": "https://github.com/sebastianbergmann/version",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/version/issues",
+<<<<<<< HEAD
                 "security": "https://github.com/sebastianbergmann/version/security/policy",
                 "source": "https://github.com/sebastianbergmann/version/tree/5.0.2"
+=======
+                "source": "https://github.com/sebastianbergmann/version/tree/3.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -8208,6 +10616,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-10-09T05:16:32+00:00"
         },
         {
@@ -8241,11 +10650,45 @@
                 "classmap": [
                     "lib/"
                 ]
+=======
+            "time": "2020-09-28T06:39:44+00:00"
+        },
+        {
+            "name": "spatie/backtrace",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/backtrace.git",
+                "reference": "8c0f16a59ae35ec8c62d85c3c17585158f430110"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/backtrace/zipball/8c0f16a59ae35ec8c62d85c3c17585158f430110",
+                "reference": "8c0f16a59ae35ec8c62d85c3c17585158f430110",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "laravel/serializable-closure": "^1.3 || ^2.0",
+                "phpunit/phpunit": "^9.3 || ^11.4.3",
+                "spatie/phpunit-snapshot-assertions": "^4.2 || ^5.1.6",
+                "symfony/var-dumper": "^5.1 || ^6.0 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Backtrace\\": "src"
+                }
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
+<<<<<<< HEAD
             "description": "A static analysis tool to detect side effects in PHP code",
             "keywords": [
                 "static analysis"
@@ -8286,6 +10729,306 @@
             },
             "require-dev": {
                 "symfony/console": "^6.4|^7.0"
+=======
+            "authors": [
+                {
+                    "name": "Freek Van de Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A better backtrace",
+            "homepage": "https://github.com/spatie/backtrace",
+            "keywords": [
+                "Backtrace",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/backtrace/issues",
+                "source": "https://github.com/spatie/backtrace/tree/1.8.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/spatie",
+                    "type": "github"
+                },
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "other"
+                }
+            ],
+            "time": "2025-08-26T08:22:30+00:00"
+        },
+        {
+            "name": "spatie/flare-client-php",
+            "version": "1.10.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/flare-client-php.git",
+                "reference": "bf1716eb98bd689451b071548ae9e70738dce62f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/flare-client-php/zipball/bf1716eb98bd689451b071548ae9e70738dce62f",
+                "reference": "bf1716eb98bd689451b071548ae9e70738dce62f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/pipeline": "^8.0|^9.0|^10.0|^11.0|^12.0",
+                "php": "^8.0",
+                "spatie/backtrace": "^1.6.1",
+                "symfony/http-foundation": "^5.2|^6.0|^7.0",
+                "symfony/mime": "^5.2|^6.0|^7.0",
+                "symfony/process": "^5.2|^6.0|^7.0",
+                "symfony/var-dumper": "^5.2|^6.0|^7.0"
+            },
+            "require-dev": {
+                "dms/phpunit-arraysubset-asserts": "^0.5.0",
+                "pestphp/pest": "^1.20|^2.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "spatie/pest-plugin-snapshots": "^1.0|^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Spatie\\FlareClient\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Send PHP errors to Flare",
+            "homepage": "https://github.com/spatie/flare-client-php",
+            "keywords": [
+                "exception",
+                "flare",
+                "reporting",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/flare-client-php/issues",
+                "source": "https://github.com/spatie/flare-client-php/tree/1.10.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-14T13:42:06+00:00"
+        },
+        {
+            "name": "spatie/ignition",
+            "version": "1.14.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/ignition.git",
+                "reference": "5e11c11f675bb5251f061491a493e04a1a571532"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/ignition/zipball/5e11c11f675bb5251f061491a493e04a1a571532",
+                "reference": "5e11c11f675bb5251f061491a493e04a1a571532",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^8.0",
+                "spatie/backtrace": "^1.5.3",
+                "spatie/flare-client-php": "^1.4.0",
+                "symfony/console": "^5.4|^6.0|^7.0",
+                "symfony/var-dumper": "^5.4|^6.0|^7.0"
+            },
+            "require-dev": {
+                "illuminate/cache": "^9.52|^10.0|^11.0",
+                "mockery/mockery": "^1.4",
+                "pestphp/pest": "^1.20|^2.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "psr/simple-cache-implementation": "*",
+                "symfony/cache": "^5.4|^6.0|^7.0",
+                "symfony/process": "^5.4|^6.0|^7.0",
+                "vlucas/phpdotenv": "^5.5"
+            },
+            "suggest": {
+                "openai-php/client": "Require get solutions from OpenAI",
+                "simple-cache-implementation": "To cache solutions from OpenAI"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Ignition\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Spatie",
+                    "email": "info@spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A beautiful error page for PHP applications.",
+            "homepage": "https://flareapp.io/ignition",
+            "keywords": [
+                "error",
+                "flare",
+                "laravel",
+                "page"
+            ],
+            "support": {
+                "docs": "https://flareapp.io/docs/ignition-for-laravel/introduction",
+                "forum": "https://twitter.com/flareappio",
+                "issues": "https://github.com/spatie/ignition/issues",
+                "source": "https://github.com/spatie/ignition"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-05-29T08:10:20+00:00"
+        },
+        {
+            "name": "spatie/laravel-ignition",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-ignition.git",
+                "reference": "b6d5c33cf0b8260d6540572af2d9bcf9182fe5fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/b6d5c33cf0b8260d6540572af2d9bcf9182fe5fb",
+                "reference": "b6d5c33cf0b8260d6540572af2d9bcf9182fe5fb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "illuminate/support": "^8.77|^9.27",
+                "monolog/monolog": "^2.3",
+                "php": "^8.0",
+                "spatie/flare-client-php": "^1.0.1",
+                "spatie/ignition": "<= 1.14.2",
+                "symfony/console": "^5.0|^6.0",
+                "symfony/var-dumper": "^5.0|^6.0"
+            },
+            "require-dev": {
+                "filp/whoops": "^2.14",
+                "livewire/livewire": "^2.8|dev-develop",
+                "mockery/mockery": "^1.4",
+                "nunomaduro/larastan": "^1.0",
+                "orchestra/testbench": "^6.23|^7.0",
+                "pestphp/pest": "^1.20",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "spatie/laravel-ray": "^1.27"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Flare": "Spatie\\LaravelIgnition\\Facades\\Flare"
+                    },
+                    "providers": [
+                        "Spatie\\LaravelIgnition\\IgnitionServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Spatie\\LaravelIgnition\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Spatie",
+                    "email": "info@spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A beautiful error page for Laravel applications.",
+            "homepage": "https://flareapp.io/ignition",
+            "keywords": [
+                "error",
+                "flare",
+                "laravel",
+                "page"
+            ],
+            "support": {
+                "docs": "https://flareapp.io/docs/ignition-for-laravel/introduction",
+                "forum": "https://twitter.com/flareappio",
+                "issues": "https://github.com/spatie/laravel-ignition/issues",
+                "source": "https://github.com/spatie/laravel-ignition"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-06-13T07:21:06+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v6.0.19",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "deec3a812a0305a50db8ae689b183f43d915c884"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/deec3a812a0305a50db8ae689b183f43d915c884",
+                "reference": "deec3a812a0305a50db8ae689b183f43d915c884",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.2",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "conflict": {
+                "symfony/console": "<5.4"
+            },
+            "require-dev": {
+                "symfony/console": "^5.4|^6.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "bin": [
                 "Resources/bin/yaml-lint"
@@ -8316,7 +11059,11 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/yaml/tree/v7.3.3"
+=======
+                "source": "https://github.com/symfony/yaml/tree/v6.0.19"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             },
             "funding": [
                 {
@@ -8328,15 +11075,22 @@
                     "type": "github"
                 },
                 {
+<<<<<<< HEAD
                     "url": "https://github.com/nicolas-grekas",
                     "type": "github"
                 },
                 {
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-08-27T11:34:33+00:00"
+=======
+            "time": "2023-01-11T11:50:03+00:00"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         },
         {
             "name": "theseer/tokenizer",
@@ -8395,7 +11149,11 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
+<<<<<<< HEAD
         "php": "^8.2"
+=======
+        "php": "^8.0.2"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
     },
     "platform-dev": {},
     "plugin-api-version": "2.6.0"

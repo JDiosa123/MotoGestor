@@ -14,5 +14,9 @@ trim_trailing_whitespace = false
 [*.{yml,yaml}]
 indent_size = 2
 
+<<<<<<< HEAD
 [compose.yaml]
+=======
+[docker-compose.yml]
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
 indent_size = 4

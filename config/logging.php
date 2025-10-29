@@ -3,7 +3,10 @@
 use Monolog\Handler\NullHandler;
 use Monolog\Handler\StreamHandler;
 use Monolog\Handler\SyslogUdpHandler;
+<<<<<<< HEAD
 use Monolog\Processor\PsrLogMessageProcessor;
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
 
 return [
 
@@ -12,9 +15,15 @@ return [
     | Default Log Channel
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | This option defines the default log channel that is utilized to write
     | messages to your logs. The value provided here should match one of
     | the channels present in the list of "channels" configured below.
+=======
+    | This option defines the default log channel that gets used when writing
+    | messages to the logs. The name specified in this option should match
+    | one of the channels defined in the "channels" configuration array.
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
     |
     */
 
@@ -33,7 +42,11 @@ return [
 
     'deprecations' => [
         'channel' => env('LOG_DEPRECATIONS_CHANNEL', 'null'),
+<<<<<<< HEAD
         'trace' => env('LOG_DEPRECATIONS_TRACE', false),
+=======
+        'trace' => false,
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
     ],
 
     /*
@@ -41,20 +54,36 @@ return [
     | Log Channels
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | Here you may configure the log channels for your application. Laravel
     | utilizes the Monolog PHP logging library, which includes a variety
     | of powerful log handlers and formatters that you're free to use.
     |
     | Available drivers: "single", "daily", "slack", "syslog",
     |                    "errorlog", "monolog", "custom", "stack"
+=======
+    | Here you may configure the log channels for your application. Out of
+    | the box, Laravel uses the Monolog PHP logging library. This gives
+    | you a variety of powerful log handlers / formatters to utilize.
+    |
+    | Available Drivers: "single", "daily", "slack", "syslog",
+    |                    "errorlog", "monolog",
+    |                    "custom", "stack"
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
     |
     */
 
     'channels' => [
+<<<<<<< HEAD
 
         'stack' => [
             'driver' => 'stack',
             'channels' => explode(',', (string) env('LOG_STACK', 'single')),
+=======
+        'stack' => [
+            'driver' => 'stack',
+            'channels' => ['single'],
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
             'ignore_exceptions' => false,
         ],
 
@@ -62,24 +91,37 @@ return [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
             'level' => env('LOG_LEVEL', 'debug'),
+<<<<<<< HEAD
             'replace_placeholders' => true,
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         ],
 
         'daily' => [
             'driver' => 'daily',
             'path' => storage_path('logs/laravel.log'),
             'level' => env('LOG_LEVEL', 'debug'),
+<<<<<<< HEAD
             'days' => env('LOG_DAILY_DAYS', 14),
             'replace_placeholders' => true,
+=======
+            'days' => 14,
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         ],
 
         'slack' => [
             'driver' => 'slack',
             'url' => env('LOG_SLACK_WEBHOOK_URL'),
+<<<<<<< HEAD
             'username' => env('LOG_SLACK_USERNAME', 'Laravel Log'),
             'emoji' => env('LOG_SLACK_EMOJI', ':boom:'),
             'level' => env('LOG_LEVEL', 'critical'),
             'replace_placeholders' => true,
+=======
+            'username' => 'Laravel Log',
+            'emoji' => ':boom:',
+            'level' => env('LOG_LEVEL', 'critical'),
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         ],
 
         'papertrail' => [
@@ -91,31 +133,47 @@ return [
                 'port' => env('PAPERTRAIL_PORT'),
                 'connectionString' => 'tls://'.env('PAPERTRAIL_URL').':'.env('PAPERTRAIL_PORT'),
             ],
+<<<<<<< HEAD
             'processors' => [PsrLogMessageProcessor::class],
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         ],
 
         'stderr' => [
             'driver' => 'monolog',
             'level' => env('LOG_LEVEL', 'debug'),
             'handler' => StreamHandler::class,
+<<<<<<< HEAD
             'handler_with' => [
                 'stream' => 'php://stderr',
             ],
             'formatter' => env('LOG_STDERR_FORMATTER'),
             'processors' => [PsrLogMessageProcessor::class],
+=======
+            'formatter' => env('LOG_STDERR_FORMATTER'),
+            'with' => [
+                'stream' => 'php://stderr',
+            ],
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         ],
 
         'syslog' => [
             'driver' => 'syslog',
             'level' => env('LOG_LEVEL', 'debug'),
+<<<<<<< HEAD
             'facility' => env('LOG_SYSLOG_FACILITY', LOG_USER),
             'replace_placeholders' => true,
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         ],
 
         'errorlog' => [
             'driver' => 'errorlog',
             'level' => env('LOG_LEVEL', 'debug'),
+<<<<<<< HEAD
             'replace_placeholders' => true,
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
         ],
 
         'null' => [
@@ -126,7 +184,10 @@ return [
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
+<<<<<<< HEAD
 
+=======
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
     ],
 
 ];

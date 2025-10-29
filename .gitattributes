@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 * text=auto eol=lf
+=======
+* text=auto
+>>>>>>> f9bcb00 (Creando el modelo, vista, controlador de el sistema Login de usuarios)
 
 *.blade.php diff=html
 *.css diff=css
