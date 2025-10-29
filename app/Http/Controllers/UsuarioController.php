@@ -57,6 +57,6 @@ public function update(Request $request)
     $usuario->password = Hash::make($request->password);
     $usuario->save();
 
-    return redirect()->route('login')->with('success', '✅ Contraseña actualizada correctamente.');
+    return redirect()->route('login')->with('success', ' Contraseña actualizada correctamente.');
 }
 }

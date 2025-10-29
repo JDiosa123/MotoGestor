@@ -14,6 +14,7 @@
         </div>
         <div class="card-body">
 
+<<<<<<< HEAD
             @if (session('error'))
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     {{ session('error') }}
@@ -23,16 +24,31 @@
             @if (session('error'))
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
                     {{ session('error') }}
+=======
+            @if (session('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    {{ session('success') }}
+>>>>>>> f976c32e2e9d316ccdb5275b034f84e5af8c4815
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             @endif
 
+<<<<<<< HEAD
 @if (session('success'))
     <div class="alert alert-success alert-dismissible fade show" role="alert">
         {{ session('success') }}
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 @endif
+=======
+
+            @if (session('error'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    {{ session('error') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif    
+>>>>>>> f976c32e2e9d316ccdb5275b034f84e5af8c4815
             <form method="POST" action="{{ route('usuario.update') }}">
                 @csrf
                 <div class="mb-3">
