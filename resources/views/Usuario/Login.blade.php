@@ -38,19 +38,15 @@
                             <div class="mb-3">
                                 <label for="password" class="form-label">Contraseña</label>
                                 <input type="password" name="password" class="form-control" required>
-                            </div>
-                            <button type="submit" class="btn btn-dark w-100">Ingresar</button>
+                            </div><br><br>
+                            <button type="submit" class="btn btn-dark w-100">Ingresar</button><br><br>
                         </form>
 
                         @if ($errors->any())
                             <div class="alert alert-danger mt-3">{{ $errors->first() }}</div>
                         @endif
 
-                        <hr>
-
-                        <div class="text-center">
-                            <a href="{{ route('usuario.create') }}" class="text-success">Crear nuevo usuario</a><br>
-                            <a href="{{ route('usuario.editForm') }}" class="text-primary">Actualizar usuario o contraseña</a>
+                        
                         </div>
                     </div>
                 </div>
