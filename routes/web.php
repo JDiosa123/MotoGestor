@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\InventarioController;
 
 // -------------------------------
 // 🔐 AUTENTICACIÓN
@@ -32,9 +33,7 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::delete('/admin/usuarios/{id}', [AdminController::class, 'destroy'])->name('admin.usuario.delete');
 });
 
-// -------------------------------
-// 🏍️ DASHBOARD ALMACENISTA
-// -------------------------------
+
 Route::middleware(['auth', 'role:almacenista'])->get('/almacenista/dashboard', function () {
     return view('Dashboard.almacenista');
 })->name('almacenista.dashboard');
@@ -45,3 +44,13 @@ Route::middleware(['auth', 'role:almacenista'])->get('/almacenista/dashboard', f
 Route::middleware(['auth', 'role:mecanico'])->get('/mecanico/dashboard', function () {
     return view('Dashboard.mecanico');
 })->name('mecanico.dashboard');
+
+
+
+Route::get('/inventario', [InventarioController::class, 'index'])->name('inventario.index');
+Route::post('/inventario/registrar', [InventarioController::class, 'registrarMovimiento'])->name('inventario.registrar');
+Route::get('/inventario/{id}/editar', [InventarioController::class, 'editar'])->name('inventario.editar');
+Route::post('/inventario/{id}/actualizar', [InventarioController::class, 'actualizar'])->name('inventario.actualizar');
+Route::delete('/inventario/{id}/eliminar', [InventarioController::class, 'eliminar'])->name('inventario.eliminar');
+
+
